@@ -1,0 +1,19 @@
+[package]
+name = "jsm"
+description = "Jay's stupid macros"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70.0"
+repository = "https://github.com/JayJeyaruban/jsm"
+homepage = "https://github.com/JayJeyaruban/jsm"
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+proc-macro2 = "1.0.69"
+quote = "1.0.33"
+syn = { version = "2.0.39", features = ["full"] }
+
+
+[lib]
+proc-macro = true
