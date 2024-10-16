@@ -19,7 +19,8 @@ license = "MIT"
 jsm-macros = { workspace = true, optional = true }
 
 [features]
-default = ["iter", "label"]
+default = ["iter", "label", "pipe"]
 iter = []
 label = []
+pipe = []
 macros = ["dep:jsm-macros"]
